@@ -495,4 +495,41 @@ align-items: center;
         padding: 10px 14px;
     }
 
+.hero h1 {
+    font-size: 56px;
+    line-height: 1.1;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero-content {
+    padding: 0 25px;
+}
+
+.features {
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+
+.services-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+
+.service-card,
+.feature-card {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.services-text {
+    padding: 0 20px;
+}
+
+.services h2,
+.why-legacy h2 {
+    font-size: 40px;
+}
 }
