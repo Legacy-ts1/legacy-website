@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #0f172a;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.top-header {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    align-items: center;
+    padding: 20px 50px;
+    width: 100%;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  
+    background-image: url("header.jpeg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.logo {
+    width: 150px;
+    height: auto;
+    justify-self: start;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    transform: translateX(25px);
+}
+
+.phone-number {
+    color: #ff7a00;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    justify-self: end;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.phone-number:hover {
+    color: #ff9500;
+}
+
+.quote-button {
+    justify-self: end;
+    background: #ff7a00;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    box-shadow: 0 0 15px rgba(255, 122, 0, 0.4);
+}
+
+.quote-button:hover {
+    background: #ff9500;
+    transform: translateY(-2px);
+    box-shadow: 0 0 25px rgba(255, 122, 0, 0.7);
+}
+
+.quote-button:hover {
+    background-color: #ff9500;
+ transition: all 0.3s ease;   
+}
+.quote-button:hover {
+    background-color: #ff9500;
+    transform: translateY(-3px);
+}
+
+.hero {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    color: #ff7a00;
+    font-size: 76px;
+    margin: 0 0 20px;
+    transition: 0.3s;
+    text-shadow: 0 0 20px rgba(255, 122, 0, 0.25);
+}
+
+.slogan {
+    color: #ff7a00;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+
+.hero h2 {
+    color: white;
+    font-size: 32px;
+    margin: 0 0 10px;
+}.hero-button {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 18px 48px;
+    background-color: #ff7a00;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 12px 30px rgba(255, 122, 0, 0.30);
+    transition: 0.3s;
+box-shadow: 0 12px 30px rgba(255, 122, 0, 0.30);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.why-legacy h2 {
+    text-align: center;
+    font-size: 48px;
+    color: #ff7a00;
+    margin: 0;
+    
+}
+
+.hero-label {
+    color: #ff7a00;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.hero-button:hover {
+    background-color: #ff9500;
+    transform: translateY(-4px) scale(1.03);
+}
+
+.why-text {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+font-weight: 500;
+letter-spacing: 0.5px;
+    max-width: 700px;
+    margin: 20px auto 60px;
+    line-height: 1.6;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,122,0,0.25);
+    border-radius: 18px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    transition: 0.3s;
+}
+.feature-card h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 18px;
+    letter-spacing: 0.5px;
+}
+.feature-card p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #d9d9d9;
+}
+.feature-card:hover {
+    transform: translateY(-10px);
+    border-color: #ff7a00;
+    box-shadow: 0 15px 40px rgba(255,122,0,0.35);
+}
+
+.services {
+    padding: 120px 0;
+    text-align: center;
+}
+
+.services h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.services-line {
+    width: 85px;
+    height: 4px;
+    background-color: #ff7a00;
+    margin: 20px auto 25px;
+}
+
+.services-text {
+    color: white;
+    font-size: 18px;
+    max-width: 650px;
+    margin: 0 auto 55px;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+}
+
+.service-card {
+    min-height: 285px;
+    padding: 28px 24px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 122, 0, 0.45);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    border-color: #ff7a00;
+    box-shadow: 0 15px 40px rgba(255, 122, 0, 0.25);
+}
+
+.service-icon {
+    width: 65px;
+    height: 65px;
+    margin-bottom: 22px;
+    fill: none;
+    stroke: #ff7a00;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.service-card h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 15px;
+}
+
+.service-card p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0;
+    opacity: 0.9;
+}
+.header-nav {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.header-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 16px;
+    border: 1px solid rgba(255, 122, 0, 0.45);
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.header-nav a:hover {
+    background-color: #ff7a00;
+    border-color: #ff7a00;
+    transform: translateY(-2px);
+}
+
+.footer {
+    background: #0b1220;
+    border-top: 2px solid #ff7a00;
+    padding: 60px 40px 20px;
+    color: white;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.footer-logo img {
+    width: 180px;
+    margin-bottom: 15px;
+}
+
+.footer-logo p {
+    color: #bfc7d5;
+    line-height: 1.6;
+}
+
+.footer-links,
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links h3,
+.footer-contact h3 {
+    color: #ff7a00;
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ff7a00;
+}
+
+.footer-contact p {
+    margin-bottom: 10px;
+    color: #bfc7d5;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    color: #888;
+}
+.quote-page {
+    min-height: 100vh;
+    background:
+    linear-gradient(rgba(15,23,42,0.82), rgba(15,23,42,0.82)),
+    url("quote backround.png");
+
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.quote-page h1 {
+    color: #ff7a00;
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.quote-page > p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.quote-form {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    background: #111c30;
+    padding: 40px;
+    border: 1px solid rgba(255, 122, 0, 0.6);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.quote-form input,
+.quote-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    background: #0b1220;
+    color: white;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.quote-form input::placeholder,
+.quote-form textarea::placeholder {
+    color: #9ca3af;
+}
+
+.quote-form input:focus,
+.quote-form textarea:focus {
+    outline: none;
+    border-color: #ff7a00;
+}
+
+.quote-form textarea {
+    resize: vertical;
+}
+
+.quote-form button {
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #ff7a00;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.quote-form button:hover {
+    background: #ff9500;
+    transform: translateY(-2px);
+}
