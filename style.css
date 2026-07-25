@@ -454,3 +454,45 @@ align-items: center;
     background: #ff9500;
     transform: translateY(-2px);
 }
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .top-header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        padding: 15px;
+        background-position: center;
+    }
+
+    .logo {
+        width: 85px;
+        margin-right: auto;
+    }
+
+    .header-nav {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        transform: none;
+    }
+
+    .header-nav a {
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+
+    .phone-number {
+        font-size: 13px;
+    }
+
+    .quote-button {
+        font-size: 13px;
+        padding: 10px 14px;
+    }
+
+}
