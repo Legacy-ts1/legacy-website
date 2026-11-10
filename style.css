@@ -83,7 +83,7 @@ background-repeat: no-repeat;
 }
 
 .hero {
-    min-height: 100vh;
+    min-height: 65vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
